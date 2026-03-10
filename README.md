@@ -1,1 +1,2 @@
 # Problem16
+This program reads the log file line by line using BufferedReader. Each line contains a timestamp, user ID, and action, separated by commas. The program splits each line to extract the user and the action. It uses two HashMaps to count how many actions each user performs and how many times each action occurs. After reading the whole file, it checks the counts to find which user performed the most actions and which action occurred the most times. Finally, it prints the most active user and the most common action.
